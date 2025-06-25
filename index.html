@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undangan Pernikahan | Andi & Dina</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            background-color: #141414;
+            color: #fff;
+            font-family: 'Roboto', sans-serif;
+        }
+        header {
+            padding: 40px;
+            text-align: center;
+            background-color: #000;
+        }
+        header h1 {
+            font-size: 2.5em;
+            color: #e50914;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        .highlight {
+            color: #e50914;
+            font-weight: bold;
+        }
+        .gallery img {
+            width: 100%;
+            max-width: 300px;
+            margin: 10px;
+            border-radius: 8px;
+        }
+        form {
+            background: #222;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 400px;
+            border-radius: 8px;
+        }
+        form input, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+        }
+        form button {
+            background-color: #e50914;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Undangan Digital</h1>
+    <p>Andi & Dina</p>
+</header>
+
+<section>
+    <h2>Acara Pernikahan</h2>
+    <p><span class="highlight">Tanggal:</span> Sabtu, 30 Agustus 2025</p>
+    <p><span class="highlight">Waktu:</span> 10.00 WIB - Selesai</p>
+    <p><span class="highlight">Tempat:</span> Gedung Graha Mulya, Jakarta</p>
+    <p><a href="https://maps.google.com" style="color:#e50914" target="_blank">Lihat Lokasi di Google Maps</a></p>
+</section>
+
+<section class="gallery">
+    <h2>Galeri</h2>
+    <img src="https://via.placeholder.com/300x200?text=Foto+1" alt="Foto 1">
+    <img src="https://via.placeholder.com/300x200?text=Foto+2" alt="Foto 2">
+</section>
+
+<section>
+    <h2>RSVP</h2>
+    <form action="https://formspree.io/f/mknlkdpl" method="POST">
+        <input type="text" name="nama" placeholder="Nama Anda" required>
+        <input type="email" name="email" placeholder="Email Anda" required>
+        <textarea name="pesan" rows="4" placeholder="Ucapan atau pertanyaan..."></textarea>
+        <button type="submit">Kirim RSVP</button>
+    </form>
+</section>
+
+</body>
+</html>
